@@ -1,0 +1,41 @@
+/* Set the chat container height and width */
+.chat-container {
+    height: 500px;
+    // width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+    background-color: #ffdada
+  }
+
+  /* Set the message box width and margin */
+  .message-box {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Style the send button */
+  .send-button {
+    margin-top: 10px;
+  }
+
+  /* Style the chat bubbles */
+  .chat-bubble {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the user chat bubble */
+.user-bubble {
+    background-color: #634a4a;
+    color: #e8e8e8;
+    width: fit-content;
+}
+
+/* Style the bot chat bubble */
+.bot-bubble {
+      width: fit-content;
+    background-color: #d67878;
+  }
